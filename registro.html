@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>punto-2</title>
+</head>
+
+<body>
+    <h2><strong>registro a una pagina de videojuegos</strong></h2>
+    <!--El formulario debe solicitar los siguientes datos: nombre y apellido* , correo electrónico*, fecha de nacimiento, DNI*, teléfono, usuario de X, usuario de Instagram, ciudad, provincia. El formulario tendrá, además, que consultar al usuario sobre sus preferencias relacionadas con la temática elegida, por ejemplo: 
+¿qué deportes realiza? tenis - natación - basquet-->
+    <form action="/registro" method="post">
+        <label for="nombre y apellido"><u>Nombre y apellido:</u></label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <br><label for="email"><u>Email:</u></label>
+        <input type="email" id="email" name="email" required>
+
+        <br><label for="edad"><u>Edad:</u></label>
+        <input type="date" id="edad" name="edad" required>
+
+        <br><label for="DNI"><u>DNI:</u></label>
+        <input type="text" id="DNI" name="DNI" required>
+
+        <br><label for="telefono"><u>numero de telefono:</u></label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <br><label for="usuario de X"><u>usuario de X:</u></label>
+        <input type="text" id="usuario de X" name="usuario de X" required>
+
+        <br><label for="usuario de Instagram"><u>usuario de Instagram:</u></label>
+        <input type="text" id="usuario de Instagram" name="usuario de Instagram" required>
+
+        <br><label for="tipo de juegos favoritos"><u>tipo de juegos favoritos:</u></label>
+        <select id="ocupacion" name="ocupacion" required>
+            <option value="">Seleccione una opción</option>
+            <option value="Rougelike">Rougelike</option>
+            <option value="Souls like">Souls like</option>
+            <option value="Boomer shotter">Boomer shotter</option>
+            <option value="point and click">Point and click</option>
+            <option value="Gore">Gore</option>
+            <option value="Horror">Horror</option>
+            <option value="otro">otro</option>
+        </select>
+
+        <br><label for="intereses"><u>Intereses en los juegos:</u></label>
+        <br><input type="checkbox" id="interes1" name="intereses" value="Banda sonora"> <label for="interes1">Banda
+            sonora</label>
+        <br><input type="checkbox" id="interes2" name="intereses" value="desestresarse"> <label
+            for="interes2">desestresarse</label>
+        <br><input type="checkbox" id="interes3" name="intereses" value="competir"> <label
+            for="interes3">competir</label>
+        <br><input type="checkbox" id="interes4" name="intereses" value="otro"> <label for="interes3">otro</label>
+        <br><input type="checkbox" id="interes5" name="intereses" value="ninguno"> <label for="interes3">ninguno</label>
+
+        <br><label for="aparatos"><u>¿en que aparato suele jugar?</u></label>
+        <br><input type="checkbox" id="aparato1" name="aparatos" value="Computadora"> <label
+            for="aparato1">Computadora</label>
+        <br><input type="checkbox" id="aparato2" name="aparatos" value="telefono"> <label
+            for="aparato2">telefono</label>
+        <br><input type="checkbox" id="aparato3" name="aparatos" value="Consola"> <label for="aparato3">Consola</label>
+
+        <br><label for="empresas"><u>empresas de videojuegos que conozca:</u></label>
+        <br><input type="checkbox" id="empresa1" name="empresas" value="Valve"> <label for="empresa1">Valve</label>
+        <br><input type="checkbox" id="empresa2" name="empresas" value="Rockstar games"> <label for="empresa2">Rockstar
+            games</label>
+        <br><input type="checkbox" id="empresa3" name="empresas" value="Ubisoft"> <label for="empresa3">Ubisoft</label>
+        <br><input type="checkbox" id="empresa4" name="empresas" value="Electronic arts"> <label
+            for="empresa4">Electronic arts</label>
+        <br><input type="checkbox" id="empresa5" name="empresas" value="bethesta"> <label
+            for="empresa5">bethesta</label>
+        <br><input type="checkbox" id="empresa6" name="empresas" value="Running whith scissors"> <label
+            for="empresa6">Running whith scissors</label>
+        <br><input type="checkbox" id="empresa7" name="empresas" value="Team cherry"> <label for="empresa7">Team
+            cherry</label>
+        <br><input type="checkbox" id="empresa8" name="empresas" value="Santa monica"> <label for="empresa8">Santa
+            monica</label>
+        <br><input type="checkbox" id="empresa9" name="empresas" value="Dennaton games"> <label for="empresa9">Dennaton
+            games</label>
+        <br><input type="checkbox" id="empresa10" name="empresas" value="no conozco ninguna"> <label for="empresa10">no
+            conozco ninguna</label>
+        <br><input type="checkbox" id="empresa11" name="empresas" value="todas"> <label for="empresa11">todas</label>
+        <br><input type="checkbox" id="empresa12" name="empresas" value="otra"> <label for="empresa12">otra</label>
+
+        <br><label for="notificacion"><u>¿que tipo de notificaciones quiere recibir?</u></label>
+        <br><input type="checkbox" id="notificacion1" name="notificacion" value="Juegos nuevos"> <label
+            for="notificacion1">Juegos nuevos</label>
+        <br><input type="checkbox" id="notificacion2" name="notificacion" value="Descuentos en lista de deseados">
+        <label for="notificacion2">Descuentos de la lista de deseados</label>
+        <br><input type="checkbox" id="notificacion3" name="notificacion" value="juegos gratis"> <label
+            for="notificacion3">juegos gratis</label>
+        <br><input type="checkbox" id="notificacion4" name="notificacion" value="otra"> <label
+            for="notificacion4">otra</label>
+        <br><input type="checkbox" id="notificacion5" name="notificacion" value="ninguna"> <label
+            for="notificacion5">ninguna</label>
+
+        <br><input type="submit" value="Enviar">
+
+        <p><u><a href="/tp-05.html">volver al TP</u></a></p>
+</body>
+
+</html>
